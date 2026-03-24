@@ -867,16 +867,16 @@ a { display: inline-block; text-decoration: none; color: inherit; }
   .hero-mobile-bio {
     display: block;
     grid-column: 1 / -1;
-    grid-row: 2;
+    grid-row: 1.5;
     font-size: .88rem;
     line-height: 1.6;
     color: var(--g2);
-    margin-bottom: -.2rem;
+    margin-bottom: -.1rem;
   }
 
   .header-content > .btn-con {
     grid-column: 1 / -1;
-    grid-row: 3;
+    grid-row: 2.5;
     margin-top: -.3rem;
   }
 
