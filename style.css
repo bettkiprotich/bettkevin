@@ -163,7 +163,7 @@ a { display: inline-block; text-decoration: none; color: inherit; }
   font-size: clamp(2rem, 4vw, 3.5rem);
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
 }
 
 .main-title h2 span { color: var(--accent); }
@@ -813,7 +813,7 @@ a { display: inline-block; text-decoration: none; color: inherit; }
     grid-template-rows: auto auto auto;
     align-items: center;
     column-gap: 1.2rem;
-    row-gap: 1rem;
+    row-gap: .5rem;
     padding: 2rem 3.5rem 2rem 1.2rem;
     min-height: 100vh;
     width: 100%;
@@ -869,13 +869,15 @@ a { display: inline-block; text-decoration: none; color: inherit; }
     grid-column: 1 / -1;
     grid-row: 2;
     font-size: .88rem;
-    line-height: 1.75;
+    line-height: 1.6;
     color: var(--g2);
+    margin-bottom: -.2rem;
   }
 
   .header-content > .btn-con {
     grid-column: 1 / -1;
     grid-row: 3;
+    margin-top: -.3rem;
   }
 
   /* ════════════════════════════════
